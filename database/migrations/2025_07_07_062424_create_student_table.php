@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->integer('mobile');
+            $table->string('class')->nullable();
+            $table->string('session')->nullable();
             $table->timestamps();
         });
     }

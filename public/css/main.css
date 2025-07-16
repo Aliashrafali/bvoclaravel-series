@@ -3,3 +3,25 @@ body{
     padding: 0px;
     background-color: #EEE;
 }
+.menu{
+    height: 60px;
+    background-color: #1B3C53;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+}
+.menu nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    padding: 5px 7px 7px 7px;
+    border-radius: 4px;
+}
+.menu nav a:hover{
+    background-color: #fff;
+    color: #1B3C53;
+}
+.form{
+    height: 200px;
+    background-color: #fff;
+}

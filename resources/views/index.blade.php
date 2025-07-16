@@ -1,4 +1,1 @@
-@php
-    $n = 1;
-@endphp
-
+<h1>Hello User Panel</h1>
