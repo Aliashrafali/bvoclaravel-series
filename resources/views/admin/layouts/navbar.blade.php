@@ -5,8 +5,8 @@
                     <div class="menu">
                         <nav>
                             <a href="javascript:void(0)">Home</a>
-                            <a href="javascript:void(0)">Create Student</a>
-                            <a href="javascript:void(0)">View Student</a>
+                            <a href="{{route('create')}}">Create Student</a>
+                            <a href="{{route('view')}}">View Student</a>
                             <a href="javascript:void(0)">Logout</a>
                         </nav>
                     </div>

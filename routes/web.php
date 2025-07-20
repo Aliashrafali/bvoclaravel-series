@@ -17,3 +17,6 @@ use App\Http\Controllers\adminController;
 
 Route::get('/', [HomeController::class, 'Index'])->name('index');
 Route::get('/admin', [adminController::class, 'Admin'])->name('index');
+Route::get('/create', [adminController::class, 'Create'])->name('create');
+Route::post('/store', [adminController::class, 'Store'])->name('store');
+Route::get('/view', [adminController::class, 'View'])->name('view');

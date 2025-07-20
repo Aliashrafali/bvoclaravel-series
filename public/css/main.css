@@ -22,6 +22,18 @@ body{
     color: #1B3C53;
 }
 .form{
-    height: 200px;
+    height: auto;
     background-color: #fff;
+    border-radius: 5px;
+    border-top: 2px solid red;
+}
+.form input[type="text"], input[type="email"]{
+    height: 47px;
+}
+#namevalid{
+    color: red;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    display: none;
 }
